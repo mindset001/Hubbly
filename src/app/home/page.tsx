@@ -14,9 +14,9 @@ function Home() {
         <About/>
         </div>
         <Services/>
-        <div className='my-[-10%]'>
+        {/* <div className='my-[-10%]'>
         <Software/>
-        </div>
+        </div> */}
         <Competences/>
         <Product/>
         

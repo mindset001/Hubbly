@@ -17,15 +17,13 @@
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white
 }
-
+.rale {
+  font-family: 'Raleway', monospace;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
