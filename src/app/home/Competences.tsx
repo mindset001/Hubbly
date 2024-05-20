@@ -10,11 +10,11 @@ export const rale = Raleway({ subsets: ["latin"] });
 function Competences() {
   return (
     <main className='w-full flex flex-col justify-center items-center py-10 text-[#000]'>
-        <div className='absolute'>
-            <Image src={Comp} alt=''/>
+        <div className='absolute w-full'>
+            <Image src={Comp} alt='' className=' w-[100%]'/>
         </div>
         <div className='relative w-[80%]'>
-        <div className='w-full flex flex-col items-center mt-[20%]'>
+        <div className='w-full flex flex-col items-center'>
           <div className='bg-[#048392] h-[4px] w-[151px]'></div>
           <h2 className='text-[35px] font-[700] mt-4'>Core Competences</h2>
         </div>

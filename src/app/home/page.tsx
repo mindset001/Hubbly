@@ -5,6 +5,7 @@ import Services from './Services'
 import Product from './Product'
 import Competences from './Competences'
 import Software from './software'
+import Footer from '../components/footer'
 
 function Home() {
   return (
@@ -13,12 +14,17 @@ function Home() {
         <div className='mt-[9%]'>
         <About/>
         </div>
-        <Services/>
-        {/* <div className='my-[-10%]'>
+       <div>
+       <Services/>
+       </div>
+        <div className='z-20'>
         <Software/>
-        </div> */}
+        </div>
+        <div className='z-0'>
         <Competences/>
+        </div>
         <Product/>
+        <Footer/>
         
     </main>
   )

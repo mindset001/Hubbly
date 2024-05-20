@@ -38,48 +38,56 @@ const serviceContent = [
       subtitle: 'Seamlessly connect your systems and enhance functionality.'
   },
   {
-    title: 'API Integration Services',
-    subtitle: 'Seamlessly connect your systems and enhance functionality.'
+    title: 'Product Discovery Phase',
+    subtitle: 'Identify key objectives and map out a roadmap for success.'
+},
+{
+  title: 'Software Re-Engineering',
+  subtitle: 'Upgrade and optimize your existing software for enhanced performance.'
+},
+{
+  title: 'Application Modernization Services',
+  subtitle: 'Stay ahead with cutting-edge technology and user-centric design.'
+},
+{
+  title: 'Software Product Development',
+  subtitle: 'From concept to execution, we bring your ideas to life.'
+},
+{
+  title: 'CTO as a Service for Start-Ups',
+  subtitle:  "Get expert guidance and technical leadership tailored to your startup's needs."
+},
+{
+  title: 'Offshore Development Services',
+  subtitle: 'Access top-tier talent while optimizing costs.'
 },
 {
   title: 'API Integration Services',
   subtitle: 'Seamlessly connect your systems and enhance functionality.'
 },
 {
-  title: 'API Integration Services',
-  subtitle: 'Seamlessly connect your systems and enhance functionality.'
+title: 'Product Discovery Phase',
+subtitle: 'Identify key objectives and map out a roadmap for success.'
 },
 {
-  title: 'API Integration Services',
-  subtitle: 'Seamlessly connect your systems and enhance functionality.'
+title: 'Software Re-Engineering',
+subtitle: 'Upgrade and optimize your existing software for enhanced performance.'
 },
 {
-  title: 'API Integration Services',
-  subtitle: 'Seamlessly connect your systems and enhance functionality.'
+title: 'Application Modernization Services',
+subtitle: 'Stay ahead with cutting-edge technology and user-centric design.'
 },
 {
-  title: 'API Integration Services',
-  subtitle: 'Seamlessly connect your systems and enhance functionality.'
+title: 'Software Product Development',
+subtitle: 'From concept to execution, we bring your ideas to life.'
 },
 {
-title: 'API Integration Services',
-subtitle: 'Seamlessly connect your systems and enhance functionality.'
+title: 'CTO as a Service for Start-Ups',
+subtitle: "Get expert guidance and technical leadership tailored to your startup's needs."
 },
 {
-title: 'API Integration Services',
-subtitle: 'Seamlessly connect your systems and enhance functionality.'
-},
-{
-title: 'API Integration Services',
-subtitle: 'Seamlessly connect your systems and enhance functionality.'
-},
-{
-title: 'API Integration Services',
-subtitle: 'Seamlessly connect your systems and enhance functionality.'
-},
-{
-title: 'API Integration Services',
-subtitle: 'Seamlessly connect your systems and enhance functionality.'
+title: 'Offshore Development Services',
+subtitle: 'Access top-tier talent while optimizing costs.'
 },
 
 ]

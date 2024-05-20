@@ -4,15 +4,16 @@ import Image from 'next/image'
 import { Raleway } from 'next/font/google';
 import Prod from '../../../public/assets/product.png'
 
+
 export const rale = Raleway({ subsets: ["latin"] });
 
 function Product() {
   return (
     <main className='w-full flex flex-col items-center text-[#000] py-10'>
-        <div className='absolute'>
-            <Image src={Prod} alt=''/>
+        <div className='absolute w-full'>
+            <Image src={Prod} alt='' className='w-[100%]'/>
         </div>
-        <div className='relative w-[80%] flex flex-col items-center py-10'>
+        <div className='relative w-[90%] flex flex-col items-center py-10'>
             <h1 className='text-[35px] font-[700] text-[#fff]'>Products/Solutions</h1>
                
             <div className='mt-10 '>
@@ -22,10 +23,10 @@ function Product() {
                         <div className='bg-white rounded-lg flex justify-center w-[170px]'>
                         <Image src={Logo} alt='' className='w-[154px] h-[130px]'/>
                         </div>
-                           <h3 className='text-[20px] font-[700] my-6'>{item.title}</h3>
-                        <p className=' text-[18px] font-[300]'>{item.subtitle}</p>
+                           <h3 className={`${rale.className}  text-18px] font-[700] my-6`}>{item.title}</h3>
+                        <p className={`${rale.className}  text-[16px] font-[300]`}>{item.subtitle}</p>
 
-                        <div className='bg-[#048392] rounded-[35px] w-[149px] h-[33px] flex items-center justify-center mt-6'>Learn More {'>'} </div>
+                        <div className={`${rale.className} bg-[#048392] rounded-[35px] w-[149px] h-[33px] flex items-center justify-center mt-6`}>Learn More {'>'} </div>
                        </div>
                     ))}
 
@@ -45,18 +46,18 @@ const solutions = [
         link: ""
     },
     {
-        title: 'Hubbly App',
-        subtitle: 'Get the household help you need with our intuitive app.',
+        title: 'OctaSight',
+        subtitle: 'Gain insights and analytics to drive informed decision-making.',
         link: ""
     },
     {
-        title: 'Hubbly App',
-        subtitle: 'Get the household help you need with our intuitive app.',
+        title: 'Document Management System',
+        subtitle: 'Organize, secure, and access your documents with ease.',
         link: ""
     },
     {
-        title: 'Hubbly App',
-        subtitle: 'Get the household help you need with our intuitive app.',
+        title: 'TownCrier',
+        subtitle: 'Connect with your community and stay informed with our platform.',
         link: ""
     },
   
