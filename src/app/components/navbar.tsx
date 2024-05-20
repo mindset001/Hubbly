@@ -3,7 +3,9 @@ import Logo from '../../../public/assets/Hubbly 1.png'
 import Image from 'next/image'
 import Hero from '../../../public/assets/hero.png'
 import Link from 'next/link'
-import { rale } from '../layout'
+import { Raleway } from 'next/font/google'
+
+export const rale = Raleway({ subsets: ["latin"] });
 
 function Navbar() {
     return (
