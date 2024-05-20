@@ -9,9 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero": "https://res.cloudinary.com/mindset/image/upload/v1716194383/Frame_401_oupibi.png",
+        "footer": "https://res.cloudinary.com/mindset/image/upload/v1716194379/Rectangle_21838_d3phjv.png",
+        "product": "https://res.cloudinary.com/mindset/image/upload/v1716194382/Frame_400_xgstsu.png",
+        // "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        // "gradient-conic":
+        //   "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
