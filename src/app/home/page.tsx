@@ -9,7 +9,7 @@ import Footer from '../components/footer'
 
 function Home() {
   return (
-    <main className='w-full flex flex-col items-center justify-center'>
+    <main className='w-full bg-[#E7FCFD] flex flex-col items-center justify-center'>
         <Hero/>
         <div className='' id='about'>
         <About/>
@@ -18,16 +18,17 @@ function Home() {
       <div className='w-full' id='services'>
       <Services/>
       </div>
-       
-        <div className='z-10 w-[70%] mt-[-10%]'>
-        <Software/>
-        </div>
+      <div className='w-[70%] '>
+      <Software/>
+      </div>
     
-       <div className='mt-[-6%] w-full z-0' id='competencies'>
+       <div className='w-full z-0' id='competencies'>
        <Competences/>
        </div>
     
-        <Product/>
+       <div id='products'>
+       <Product/>
+       </div>
         <div className='w-full' id='contact'>
         <Footer/>
         </div>

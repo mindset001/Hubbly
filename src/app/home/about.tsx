@@ -73,14 +73,14 @@ function About() {
         </div>
       </div>
 
-      <div className='flex gap-4 mb-10'>
+      {/* <div className='flex gap-4 mb-10'>
           <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
           <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
           <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
           <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
           <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
           
-      </div>
+      </div> */}
     </main>
   )
 }

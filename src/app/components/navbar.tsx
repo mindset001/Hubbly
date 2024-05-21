@@ -51,6 +51,10 @@ const Navcontent = [
         name: 'Core Competencies'
     },
     {
+        link: '#products',
+        name: 'Products'
+    },
+    {
         link: '#contact',
         name: 'Contact Us'
     }
