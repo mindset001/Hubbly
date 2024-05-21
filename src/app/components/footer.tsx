@@ -46,16 +46,16 @@ function Footer() {
         <div className=''>
         <ul className='flex flex-row gap-3 text-[#048392] text-[16px] font-[700]'>
                             {Navcontent.map((item, i: number) => (
-                                <li className={`${rale.className}  mt-6 text-center`}><Link href={item.link}>{item.name}</Link></li>
+                                <li className={`${rale.className}  mt-4 text-center`}><Link href={item.link}>{item.name}</Link></li>
                             ))}
 
                         </ul>
-                        <p className={`${rale.className}  mt-6 text-center text-[#000000] font-[400] text-[14px]`}>Copyright © 2024 Engitech by OceanThemes.<span>{`${year} All Rights reserved.`}</span> </p>
+                        <p className={`${rale.className}  mt-4 text-center text-[#000000] font-[400] text-[14px]`}>Copyright © 2024 Engitech by OceanThemes.<span>{`${year} All Rights reserved.`}</span> </p>
                       
         </div>
-        <div className='flex mt-[30px]'>
+        <div className='flex mt-[20px]'>
             <Link href=''>
-            <Image src={One} alt=''/>
+            <Image src={One} alt='' />
             </Link>
             <Link href=''>
             <Image src={Two} alt=''/>
