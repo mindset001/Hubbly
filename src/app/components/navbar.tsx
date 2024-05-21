@@ -26,7 +26,7 @@ function Navbar() {
             </div>
             </div>
 
-            <div className='h-[65%] w-[84%] flex flex-col'>
+            <div className='h-[65%] w-[84%] flex flex-col text-[#fff]'>
                 <p  className={rale.className}>welcome to hubbly.me</p>
                 <h1 className='text-[48px] font-[700]'>Where Innovation <br /> Meets Efficiency In <br /> Software Development.</h1>
             </div>

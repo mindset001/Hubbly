@@ -10,7 +10,7 @@ function Software() {
        
         <div className='relative w-full flex flex-col items-center'>
                 <div className='w-[80%] flex justify-between mb-10 items-center'>
-                    <h2 className='text-[35px] font-[700]'>We Deliver software <br /> solutions that drive change.</h2>
+                    <h2 className='text-[35px] font-[700] text-[#fff]'>We Deliver software <br /> solutions that drive change.</h2>
                     <button className={`${rale.className} bg-[#fff] text-[#048392] rounded-[35px] h-[33px] px-6`}>Get Started {'>'} </button>
                 </div>
         </div>
