@@ -54,16 +54,16 @@ function Footer() {
                       
         </div>
         <div className='flex mt-[20px]'>
-            <Link href=''>
+            <Link href='https://www.facebook.com/profile.php?id=61558480744783'>
             <Image src={One} alt='' />
             </Link>
-            <Link href=''>
+            <Link href='https://www.instagram.com/hubbly.me?igsh=NnZtend5eTYxM2Uw'>
             <Image src={Two} alt=''/>
             </Link>
-            <Link href=''>
+            <Link href='https://x.com/hubbly_me?s=11&t=4JYfgftpeTz1tm8RUy5_iQ'>
             <Image src={Three} alt=''/>
             </Link>
-            <Link href=''>
+            <Link href='https://www.linkedin.com/company/hubbly-me/'>
             <Image src={Four} alt=''/>
             </Link>
         </div>
