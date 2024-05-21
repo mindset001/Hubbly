@@ -11,7 +11,7 @@ function Services() {
           <h2 className='text-[35px] font-[700] mt-4'>Our Services</h2>
         </div>
 
-        <div className='mt-10'>
+        <div className='my-10'>
         <div className='grid grid-cols-2 gap-3 text-[16px] font-[700] '>
                     {serviceContent.map((item, i: number) => (
                        <div className='group border-b pb-6 hover:border-[#979797] border-[#000000]'>
