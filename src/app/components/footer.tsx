@@ -21,13 +21,11 @@ function Footer() {
         // Update the year when the component mounts
         setYear(new Date().getFullYear());
     }, []);
+
   return (
-    <main className='w-full flex flex-col justify-center items-center' >
-         <div className='absolute z-0'>
-                <Image src={Hero} alt=''/>
-            </div>
-      <div className='relative w-full flex flex-col justify-center items-center'>
-      <div className='mb-6'>
+    <footer className='bg-footer w-full ' >
+      <div className=' w-full flex flex-col  items-center' >
+      <div className='mb-2'>
             <Image src ={Foot} alt=''/>
             <h1 className={`${rale.className}  text-[35px] font-[700] text-[#000000]`}>Ready To Get Started?</h1>
             
@@ -70,7 +68,7 @@ function Footer() {
             </Link>
         </div>
       </div>
-    </main>
+    </footer>
   )
 }
 

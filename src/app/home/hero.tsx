@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 
 function Hero() {
   return (
-   <main className=''>
+   <main className='w-full'>
     <Navbar/>
    </main>
   )

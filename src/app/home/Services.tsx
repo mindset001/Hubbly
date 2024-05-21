@@ -11,11 +11,11 @@ function Services() {
         </div>
 
         <div className='mt-10  mb-[20%]'>
-        <div className='flex flex-col gap-3 text-[16px] font-[700] '>
+        <div className='grid grid-cols-2 gap-3 text-[16px] font-[700] '>
                     {serviceContent.map((item, i: number) => (
                        <div className='group border-b pb-6 hover:border-[#979797] border-[#000000]'>
-                           <h3 className='text-[50px] font-[700] hover:text-[#048392] hover:underline'>{item.title}</h3>
-                        <p className= {`${rale.className} text-[18px] font-[300]`}>{item.subtitle}</p>
+                           <h3 className='text-[30px] font-[700] hover:text-[#048392] hover:underline'>{item.title}</h3>
+                        <p className= {`${rale.className} text-[16px] font-[300]`}>{item.subtitle}</p>
                        
                        </div>
                     ))}

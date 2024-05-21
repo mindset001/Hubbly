@@ -9,22 +9,28 @@ import Footer from '../components/footer'
 
 function Home() {
   return (
-    <main className='w-full'>
+    <main className='w-full flex flex-col items-center justify-center'>
         <Hero/>
-        <div className='mt-[9%]'>
+        <div className='' id='about'>
         <About/>
         </div>
-       <div>
-       <Services/>
-       </div>
-        <div className='z-20'>
+   
+      <div className='w-full' id='services'>
+      <Services/>
+      </div>
+       
+        <div className='z-10 w-[70%] mt-[-10%]'>
         <Software/>
         </div>
-        <div className='z-0'>
-        <Competences/>
-        </div>
+    
+       <div className='mt-[-6%] w-full z-0' id='competencies'>
+       <Competences/>
+       </div>
+    
         <Product/>
+        <div className='w-full' id='contact'>
         <Footer/>
+        </div>
         
     </main>
   )

@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Girl from '../../../public/assets/CIRCLE IMAGE.png'
 import Bend from '../../../public/assets/Group 143725868.png'
 import Arrow from '../../../public/assets/arrow.png'
-// import { rale } from '../layout'
 import { Raleway } from 'next/font/google'
 import { CountUp } from 'use-count-up'
 
