@@ -4,11 +4,10 @@ import Image from 'next/image'
 import Girl from '../../../public/assets/CIRCLE IMAGE.png'
 import Bend from '../../../public/assets/Group 143725868.png'
 import Arrow from '../../../public/assets/arrow.png'
-// import { rale } from '../layout'
-import { Raleway } from 'next/font/google'
+
 import { CountUp } from 'use-count-up'
 
-const rale = Raleway({ subsets: ["latin"] });
+
 
 const onComplete = () => {
   // do your stuff here
@@ -26,12 +25,12 @@ function About() {
           <h1 className='text-[#048392] text-[35px] mt-6 font-[700] mb-6'>We're your tech- <br />driven business ally.</h1>
           <div>
               <div className='mb-10'>
-              <p className={rale.className}>Hubbly.Me is your go-to partner for cutting-edge software development solutions,
+              <p className=''>Hubbly.Me is your go-to partner for cutting-edge software development solutions,
                dedicated to empowering businesses and individuals through technology. Our team, 
                comprised of skilled professionals across various fields, is committed to excellence 
                and collaboration. We tailor our approach to each project, ensuring personalized solutions that exceed expectations.</p>
               </div>
-               <p className={rale.className}>What sets us apart is our unwavering focus on client value,
+               <p className=''>What sets us apart is our unwavering focus on client value,
                  built on integrity, transparency, and trust. We forge strong
                   partnerships, prioritizing open communication and shared goals. 
                   Whether you're a startup or an established enterprise, Hubbly.Me 
@@ -55,31 +54,30 @@ function About() {
           <div className='mt-6 flex gap-4'>
             <div className='rounded-lg bg-[#048392] text-[#A8E6E9] h-[92px] w-[102px] flex flex-col items-center justify-center'>
             <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={80} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Employees</p>
+                <p className=' text-[14px] font-[700]'>Employees</p>
             </div>
             <div className='rounded-lg bg-[#A8E6E9] text-[#fff] h-[92px] w-[102px] flex flex-col items-center justify-center'>
             <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={10} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Locations</p>
+                <p className=' text-[14px] font-[700]'>Locations</p>
             </div>
             <div className='rounded-lg bg-[#048392] text-[#A8E6E9] h-[92px] w-[102px] flex flex-col items-center justify-center'>
             <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={500} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Projects</p>
+                <p className=' text-[14px] font-[700]'>Projects</p>
             </div>
             <div className='rounded-lg bg-[#A8E6E9] text-[#fff]  h-[92px] w-[102px] flex flex-col items-center justify-center'>
             <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={321} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Clients</p>
-                {/* {`${rale.className} text-[14px] font-[700]`} */}
+                <p className=' text-[14px] font-[700]'>Clients</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className='flex gap-4 mb-10'>
-          <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
-          <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
-          <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
-          <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
-          <h4 className={`${rale.className} text-[#9DA4AE] text-[35px] font-[700]`} >LOGO</h4>
+          <h4 className=' text-[#9DA4AE] text-[35px] font-[700]' >LOGO</h4>
+          <h4 className=' text-[#9DA4AE] text-[35px] font-[700]' >LOGO</h4>
+          <h4 className=' text-[#9DA4AE] text-[35px] font-[700]' >LOGO</h4>
+          <h4 className=' text-[#9DA4AE] text-[35px] font-[700]' >LOGO</h4>
+          <h4 className=' text-[#9DA4AE] text-[35px] font-[700]' >LOGO</h4>
           
       </div>
     </main>
