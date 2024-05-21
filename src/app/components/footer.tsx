@@ -76,15 +76,15 @@ export default Footer
 
 const Navcontent = [
     {
-        link: '/',
+        link: '/about',
         name: 'About Us'
     },
     {
-        link: '#about',
+        link: '#services',
         name: 'Our Services'
     },
     {
-        link: '#values',
+        link: '#competencies',
         name: 'Core Competencies'
     },
     {
