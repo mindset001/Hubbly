@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Raleway } from 'next/font/google';
+export const rale = Raleway({ subsets: ["latin"] });
 function Services() {
   return (
     <main className='w-full bg-[#E7FCFD] text-[#000] flex flex-col items-center py-10'>
@@ -14,7 +15,7 @@ function Services() {
                     {serviceContent.map((item, i: number) => (
                        <div className='group border-b pb-6 hover:border-[#979797] border-[#000000]'>
                            <h3 className='text-[50px] font-[700] hover:text-[#048392] hover:underline'>{item.title}</h3>
-                        <p className= 'text-[18px] font-[300]'>{item.subtitle}</p>
+                        <p className= {`${rale.className} text-[18px] font-[300]`}>{item.subtitle}</p>
                        
                        </div>
                     ))}
