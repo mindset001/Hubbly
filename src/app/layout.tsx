@@ -3,8 +3,7 @@ import { MuseoModerno, Raleway } from "next/font/google";
 
 import "./globals.css";
 
-export const inter = MuseoModerno({ subsets: ["latin"] });
-export const rale = Raleway({ subsets: ["latin"] });
+const inter = MuseoModerno({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hubbly",
