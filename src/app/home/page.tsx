@@ -18,11 +18,11 @@ function Home() {
       <div className='w-full' id='services'>
       <Services/>
       </div>
-      <div className='w-[70%] '>
+      <div className='w-[70%] z-10'>
       <Software/>
       </div>
     
-       <div className='w-full z-0' id='competencies'>
+       <div className='w-full z-0 mt-[-1%]' id='competencies'>
        <Competences/>
        </div>
     

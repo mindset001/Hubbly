@@ -11,7 +11,7 @@ function Product() {
   return (
     <main className='product w-full flex flex-col items-center text-[#000] py-10'>
         <div className=' w-[90%] flex flex-col items-center py-10'>
-            <h1 className='text-[35px] font-[700] text-[#fff]'>Products/Solutions</h1>
+            <h1 className='text-[35px] font-[700] text-[#fff] mb-10'>Products/Solutions</h1>
                
             <div className='mt-10 '>
         <div className='flex flex-row gap-3 text-[16px] font-[700] '>

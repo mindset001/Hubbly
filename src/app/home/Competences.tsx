@@ -18,7 +18,7 @@ function Competences() {
           <h2 className='text-[35px] font-[700] mt-4'>Core Competencies</h2>
         </div>
         <div>
-                    <Image src={One} alt='' className='w-[110px] h-[110px]' />
+                    <Image src={One} alt='' className='w-[90px] h-[90px]' />
                 </div>
         <div className='mt-10'>
         <div className='grid grid-cols-2 gap-3 mb-10'>
