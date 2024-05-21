@@ -3,9 +3,7 @@ import Logo from '../../../public/assets/Hubbly 1.png'
 import Image from 'next/image'
 import Hero from '../../../public/assets/hero.png'
 import Link from 'next/link'
-import { Raleway } from 'next/font/google'
-
-export const rale = Raleway({ subsets: ["latin"] });
+import { rale } from '../layout'
 
 function Navbar() {
     return (
@@ -30,7 +28,6 @@ function Navbar() {
 
             <div className='h-[65%] w-[84%] flex flex-col'>
                 <p  className={rale.className}>welcome to hubbly.me</p>
-                <p className=' text-[24px] font-[500]'></p>
                 <h1 className='text-[48px] font-[700]'>Where Innovation <br /> Meets Efficiency In <br /> Software Development.</h1>
             </div>
             </div>

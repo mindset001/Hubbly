@@ -12,7 +12,7 @@ import Four from '../../../public/assets/Group 9.png'
 import Link from 'next/link'
 import { Raleway } from 'next/font/google'
 
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 function Footer() {
     
     const [year, setYear] = useState(new Date().getFullYear());
@@ -22,9 +22,9 @@ function Footer() {
         setYear(new Date().getFullYear());
     }, []);
   return (
-    <main className='w-full flex flex-col justify-center items-center' >
-         <div className='absolute w-full'>
-                <Image src={Hero} alt='' className='w-[100%]'/>
+    <main className='w-full flex flex-col justify-center items-center ' >
+         <div className='absolute'>
+                <Image src={Hero} alt=''/>
             </div>
       <div className='relative w-full flex flex-col justify-center items-center'>
       <div className='mb-6'>

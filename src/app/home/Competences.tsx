@@ -6,7 +6,7 @@ import Comp from '../../../public/assets/Rectangle 4346.png'
 
 import One from '../../../public/assets/Frame 404.png'
 
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 function Competences() {
   return (
     <main className='w-full flex flex-col justify-center items-center py-10 text-[#000]'>

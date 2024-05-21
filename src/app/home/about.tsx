@@ -8,7 +8,7 @@ import Arrow from '../../../public/assets/arrow.png'
 import { Raleway } from 'next/font/google'
 import { CountUp } from 'use-count-up'
 
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 
 const onComplete = () => {
   // do your stuff here

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Raleway } from 'next/font/google';
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 function Services() {
   return (
     <main className='w-full bg-[#E7FCFD] text-[#000] flex flex-col items-center py-10'>

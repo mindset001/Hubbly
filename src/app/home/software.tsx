@@ -3,7 +3,7 @@ import React from 'react'
 import Soft from '../../../public/assets/software.png'
 import Image from 'next/image';
 
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 function Software() {
   return (
     <main className='w-full flex flex-col items-center'>

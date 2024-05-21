@@ -5,7 +5,7 @@ import { Raleway } from 'next/font/google';
 import Prod from '../../../public/assets/product.png'
 
 
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 
 function Product() {
   return (
