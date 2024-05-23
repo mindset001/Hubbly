@@ -1,9 +1,17 @@
 import React from 'react'
 import Phy from '../../../public/assets/phyton.png'
+import Buss from '../../../public/assets/buss.png'
+import Tech from '../../../public/assets/tech.png'
+import Ui from '../../../public/assets/uidesign.png'
+import Qa from '../../../public/assets/qa.png'
+import Digi from '../../../public/assets/digital.png'
+import Web from '../../../public/assets/web.png'
+import Dev from '../../../public/assets/devops.png'
+import Front from '../../../public/assets/front.png'
+import Cloud from '../../../public/assets/cloud.png'
 import Image from 'next/image'
 import { Raleway } from 'next/font/google';
-import Comp from '../../../public/assets/Rectangle 4346.png'
-import Software from './software';
+
 
 import One from '../../../public/assets/Frame 404.png'
 
@@ -44,7 +52,7 @@ export default Competences
 const core = [
     {
         title: 'Business Analysis',
-        img: Phy
+        img: Buss
     },
     {
         title: 'Back-End Development',
@@ -52,35 +60,35 @@ const core = [
     },
     {
         title: 'Technical Support',
-        img: Phy
+        img: Tech
     },
     {
         title: 'UI/UX Design',
-        img: Phy
+        img: Ui
     },
     {
         title: 'QA & Testing',
-        img: Phy
+        img: Qa
     },
     {
         title: 'Digital Transformation Consulting',
-        img: Phy
+        img: Digi
     },
     {
         title: 'Web Design',
-        img: Phy
+        img: Web
     },
     {
         title: 'DevOps',
-        img: Phy
+        img: Dev
     },
     {
         title: 'Front-End Development',
-        img: Phy
+        img: Front
     },
     {
         title: 'Cloud Solutions',
-        img: Phy
+        img: Cloud
     },
    
   ]

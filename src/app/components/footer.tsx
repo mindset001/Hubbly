@@ -50,7 +50,7 @@ function Footer() {
                             ))}
 
                         </ul>
-                        <p className={`${rale.className}  mt-4 text-center text-[#000000] font-[400] text-[14px]`}>Copyright © 2024 Engitech by OceanThemes.<span>{`${year} All Rights reserved.`}</span> </p>
+                        <p className={`${rale.className}  mt-4 text-center text-[#000000] font-[400] text-[14px]`}>Copyright © <span>{`${year} Engitech by OceanThemes. All Rights reserved.`}</span> </p>
                       
         </div>
         <div className='flex mt-[20px]'>
