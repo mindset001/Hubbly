@@ -29,7 +29,7 @@ function Home() {
        </div>
        </div>
     
-       <div id='products'>
+       <div id='products' className='w-full'>
        <Product/>
        </div>
         <div className='w-full' id='contact'>

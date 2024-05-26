@@ -64,9 +64,10 @@ function Navbar() {
 
             </div>}
             <div className='h-[65%] w-full lg:w-[84%] flex flex-col text-[#fff]'>
-                <p  className={rale.className}>welcome to hubbly.me</p>
-                <h1 className='block lg:hidden text-[32px] lg:text-[48px] font-[700]'>Where <br /> Innovation <br /> Meets Efficiency In Software Development.</h1>
-                <h1 className='hidden lg:block text-[36px] lg:text-[48px] font-[700]'>Where Innovation <br /> Meets Efficiency In <br /> Software Development.</h1>
+                <p  className={`{rale.className} block md:hidden`}>welcome to <br />hubbly.me</p>
+                <p  className={`{rale.className} hidden md:block`}>welcome to hubbly.me</p>
+                <h1 className='block md:hidden text-[32px] lg:text-[48px] font-[700]'>Where <br /> Innovation <br /> Meets Efficiency In Software Development.</h1>
+                <h1 className='hidden md:block text-[36px] lg:text-[48px] font-[700]'>Where Innovation <br /> Meets Efficiency In <br /> Software Development.</h1>
             </div>
             </div>
         </main>
