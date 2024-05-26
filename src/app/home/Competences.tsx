@@ -29,11 +29,11 @@ function Competences() {
                     <Image src={One} alt='' className='w-[90px] h-[90px]' />
                 </div>
         <div className='mt-10'>
-        <div className='grid grid-cols-2 gap-3 mb-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 mb-10'>
                     {core.map((item, i: number) => (
                        <div className='border border-[#E7DAED] rounded-[1px] w-[100%] h-[56px] px-10 flex flex-row items-center hover:shadow-lg  hover:border-l-2 hover:border-[#048392]'>
                         <Image src={item.img} alt='' width={20} height={20}/>
-                           <h3 className={`${rale.className} text-[20px] font-[600] ml-4`}>{item.title}</h3>
+                           <h3 className={`${rale.className} text-[16px] lg:text-[20px] font-[600] ml-4`}>{item.title}</h3>
                            
                        </div>
                     ))}

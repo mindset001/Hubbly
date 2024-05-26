@@ -16,13 +16,16 @@ const onComplete = () => {
 function About() {
   return (
     <main className='w-full flex flex-col bg-[#fff] text-[#000] items-center'>
-      <div className='w-[90%] flex flex-row justify-between py-10'>
-        <div className='w-[50%] flex flex-col items-center'>
-         <div className='w-[80%]'>
-         <div >
-            <h2 className='text-[35px] font-[700] border-t-[3px] border-[#048392] w-[160px]'>About us</h2>
-          </div>
-          <h1 className='text-[#048392] text-[35px] mt-6 font-[700] mb-6'>We're your tech- <br />driven business ally.</h1>
+       <div  className='w-[85%] flex flex-col items-center lg:items-start mt-10'>
+            <h2 className='text-left text-[35px] font-[700] border-t-[3px] border-[#048392] w-[160px]'>About us</h2>
+        </div>
+
+      <div className='w-[90%] flex flex-col-reverse items-center lg:flex-row justify-between py-10'>
+        
+        <div className='w-[90%] lg:w-[50%] flex flex-col items-center'>
+         <div className='w-[90%]'>
+        
+          <h1 className='text-[#048392] text-center lg:text-left text-[30px] lg:text-[35px] mt-6 font-[700] mb-6'>We're your tech- <br />driven business ally.</h1>
           <div>
               <div className='mb-10'>
               <p className={rale.className}>Hubbly.Me is your go-to partner for cutting-edge software development solutions,
@@ -44,29 +47,29 @@ function About() {
 
         </div>
 
-        <div className='w-[45%]'>
+        <div className='w-[80%] lg:w-[45%]'>
           <div className='flex flex-row items-end justify-end'>
             <Image src={Bend} alt='' className='w-[230px] h-[200px]' />
           </div>
           <div>
-            <Image src={Girl} alt='' className='w-[381px] h-[381px] mt-[-15%]' />
+            <Image src={Girl} alt='' className='w-[300px] h-[300px] lg:w-[381px] lg:h-[381px] mt-[-15%]' />
           </div>
-          <div className='mt-6 flex gap-4'>
+          <div className='mt-6 flex gap-1 lg:gap-4'>
             <div className='rounded-lg bg-[#048392] text-[#A8E6E9] h-[92px] w-[102px] flex flex-col items-center justify-center'>
-            <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={80} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Employees</p>
+            <h1 className='font-[700] text-[20px] md:text-[30px]'><CountUp isCounting end={80} duration={3.2} onComplete={onComplete}/>+</h1>
+                <p className={`${rale.className} text-[12px] md:text-[14px] font-[700]`}>Employees</p>
             </div>
             <div className='rounded-lg bg-[#A8E6E9] text-[#fff] h-[92px] w-[102px] flex flex-col items-center justify-center'>
-            <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={10} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Locations</p>
+            <h1 className='font-[700] text-[20px] md:text-[30px]'><CountUp isCounting end={10} duration={3.2} onComplete={onComplete}/>+</h1>
+                <p className={`${rale.className} text-[12px] md:text-[14px]font-[700]`}>Locations</p>
             </div>
             <div className='rounded-lg bg-[#048392] text-[#A8E6E9] h-[92px] w-[102px] flex flex-col items-center justify-center'>
-            <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={500} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Projects</p>
+            <h1 className='font-[700] text-[20px] md:text-[30px]'><CountUp isCounting end={500} duration={3.2} onComplete={onComplete}/>+</h1>
+                <p className={`${rale.className} text-[12px] md:text-[14px] font-[700]`}>Projects</p>
             </div>
             <div className='rounded-lg bg-[#A8E6E9] text-[#fff]  h-[92px] w-[102px] flex flex-col items-center justify-center'>
-            <h1 className='font-[700] text-[30px] md:text-[30px]'><CountUp isCounting end={321} duration={3.2} onComplete={onComplete}/>+</h1>
-                <p className={`${rale.className} text-[14px] font-[700]`}>Clients</p>
+            <h1 className='font-[700] text-[20px] md:text-[30px]'><CountUp isCounting end={321} duration={3.2} onComplete={onComplete}/>+</h1>
+                <p className={`${rale.className} text-[12px] md:text-[14px] font-[700]`}>Clients</p>
                 {/* {`${rale.className} text-[14px] font-[700]`} */}
             </div>
           </div>

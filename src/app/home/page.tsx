@@ -9,7 +9,7 @@ import Footer from '../components/footer'
 
 function Home() {
   return (
-    <main className='w-full bg-[#E7FCFD] flex flex-col items-center justify-center'>
+    <main className='w-full bg-[#E7FCFD] flex flex-col items-center justify-center overflow-x-hidden'>
         <Hero/>
         <div className='' id='about'>
         <About/>

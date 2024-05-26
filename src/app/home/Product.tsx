@@ -14,16 +14,16 @@ function Product() {
             <h1 className='text-[35px] font-[700] text-[#fff] mb-10'>Products/Solutions</h1>
                
             <div className='mt-10 '>
-        <div className='flex flex-row gap-3 text-[16px] font-[700] '>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-3 text-[16px] font-[700] '>
                     {solutions.map((item, i: number) => (
                        <div className=' text-[#fff] text-center flex flex-col items-center'>
-                        <div className='bg-white rounded-lg flex justify-center w-[170px]'>
-                        <Image src={Logo} alt='' className='w-[154px] h-[130px]'/>
+                        <div className='bg-white rounded-lg flex justify-center w-110px lg:w-[170px]'>
+                        <Image src={Logo} alt='' className='w-[140px] h-[120px] lg:w-[154px] lg:h-[130px]'/>
                         </div>
-                           <h3 className={`${rale.className}  text-18px] font-[700] my-6`}>{item.title}</h3>
-                        <p className={`${rale.className}  text-[16px] font-[300]`}>{item.subtitle}</p>
+                           <h3 className={`${rale.className} text-[14px] lg:text-18px] font-[700] my-6`}>{item.title}</h3>
+                        <p className={`${rale.className} text-[9px] lg:text-[16px] font-[300]`}>{item.subtitle}</p>
 
-                        <div className={`${rale.className} bg-[#048392] rounded-[35px] w-[149px] h-[33px] flex items-center justify-center mt-6`}>Learn More {'>'} </div>
+                        <div className={`${rale.className} text-[9px] lg:text-[16px] bg-[#048392] rounded-[35px] w-[100px] lg:w-[149px] h-[33px] flex items-center justify-center mt-6`}>Learn More {'>'} </div>
                        </div>
                     ))}
 

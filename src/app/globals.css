@@ -47,7 +47,7 @@ footer {
   background-size: cover;
   background-position: center;
   padding: 30px 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .comp {
   background-image: url('https://res.cloudinary.com/mindset/image/upload/v1716194380/Rectangle_4346_wcwi73.png') ;
