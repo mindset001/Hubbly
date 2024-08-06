@@ -9,7 +9,8 @@ import One from '../../../public/assets/Group 5.png'
 import Two from '../../../public/assets/Group 11.png'
 import Three from '../../../public/assets/Group 10.png'
 import Four from '../../../public/assets/Group 9.png'
-import Link from 'next/link'
+import { Link } from 'react-scroll';
+import { CiLocationOn } from "react-icons/ci";
 import { Raleway } from 'next/font/google'
 
 export const rale = Raleway({ subsets: ["latin"] });
@@ -38,32 +39,42 @@ function Footer() {
             <h3 className={`${rale.className}  font-[400] text-[10px] lg:text-[18px]`}>Our Phone</h3>
             </div>
             <div className='text-[#000] text-center flex flex-col items-center'>
+            <div className='h-[70px] w-[70px] rounded-full bg-[#038293] flex items-center justify-center'>
+            <CiLocationOn size="2rem" className=' text-[white] font-bold'/>
+            </div>
+            <h2 className={`${rale.className}  my-4 font-[700] text-[12px] lg:text-[18px]`}>61 Bridge Street, KINGTON, <br />United Kingdom</h2>
+            <h3 className={`${rale.className}  font-[400] text-[10px] lg:text-[18px]`}>Our Address</h3>
+            </div>
+            <div className='text-[#000] text-center flex flex-col items-center'>
             <Image src ={Msg} alt='' className='w-[68px] h-[68px]'/>
             <h2 className={`${rale.className}  my-4 font-[700] text-[12px] lg:text-[18px]`}>info@hubbly.me</h2>
             <h3 className={`${rale.className}  font-[400] text-[10px] lg:text-[18px]`}>Our Email</h3>
             </div>
         </div>
         <div className=''>
-        <ul className='grid grid-cols-3 lg:grid-cols-6 gap-2 text-[#048392] text-[10px] lg:text-[16px] font-[700]'>
+        <ul className='grid grid-cols-3 lg:grid-cols-5 gap-2 text-[#048392] text-[10px] lg:text-[16px] font-[700]'>
                             {Navcontent.map((item, i: number) => (
-                                <li className={`${rale.className}  mt-4 text-center`}><Link href={item.link}>{item.name}</Link></li>
+                                <li className={`${rale.className}  mt-4 text-center`}><Link to={item.link}
+                                smooth={true}
+                                duration={500}
+                                className='cursor-pointer'>{item.name}</Link></li>
                             ))}
 
                         </ul>
-                        <p className={`${rale.className}  mt-4 text-center text-[#000000] font-[400] text-[10px] lg:text-[14px]`}>Copyright © <span>{`${year} Engitech by OceanThemes. All Rights reserved.`}</span> </p>
+                        <p className={`${rale.className}  mt-4 text-center text-[#000000] font-[400] text-[10px] lg:text-[14px]`}>Copyright © <span>{`${year} Hubbly.me Ltd. All Rights reserved.`}</span> </p>
                       
         </div>
         <div className='flex mt-[20px]'>
-            <Link href='https://www.facebook.com/profile.php?id=61558480744783'>
+            <Link to='https://www.facebook.com/profile.php?id=61558480744783'>
             <Image src={One} alt='' />
             </Link>
-            <Link href='https://www.instagram.com/hubbly.me?igsh=NnZtend5eTYxM2Uw'>
+            <Link to='https://www.instagram.com/hubbly.me?igsh=NnZtend5eTYxM2Uw'>
             <Image src={Two} alt=''/>
             </Link>
-            <Link href='https://x.com/hubbly_me?s=11&t=4JYfgftpeTz1tm8RUy5_iQ'>
+            <Link to='https://x.com/hubbly_me?s=11&t=4JYfgftpeTz1tm8RUy5_iQ'>
             <Image src={Three} alt=''/>
             </Link>
-            <Link href='https://www.linkedin.com/company/hubbly-me/'>
+            <Link to='https://www.linkedin.com/company/hubbly-me/'>
             <Image src={Four} alt=''/>
             </Link>
         </div>
@@ -76,28 +87,25 @@ export default Footer
 
 const Navcontent = [
     {
-        link: '/about',
+        link: 'hero',
+        name: 'Home'
+    },
+ 
+    {
+        link: 'about',
         name: 'About Us'
     },
     {
-        link: '#services',
+        link: 'competencies',
         name: 'Our Services'
     },
     {
-        link: '#competencies',
-        name: 'Core Competencies'
+        link: 'product',
+        name: 'Portfolio'
     },
     {
-        link: '#contact',
+        link: 'contact',
         name: 'Contact Us'
-    },
-    {
-        link: '#team',
-        name: 'Privacy Policy'
-    },
-    {
-        link: '#team',
-        name: 'Terms & conditions'
     }
 
 ]

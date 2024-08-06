@@ -23,7 +23,7 @@ function Competences() {
         <div className=' w-[80%]'>
         <div className='w-full flex flex-col items-center'>
           <div className='bg-[#048392] h-[4px] w-[151px]'></div>
-          <h2 className='text-[35px] font-[700] mt-4'>Core Competencies</h2>
+          <h2 className='text-[35px] font-[700] mt-4'>Our Services</h2>
         </div>
         <div>
                     <Image src={One} alt='' className='w-[90px] h-[90px]' />
